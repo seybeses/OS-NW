@@ -1,4 +1,1 @@
-# OS-NW
-# OS-NW
-# OS-NW
-# OS-NW
+# OS-NW 실습
