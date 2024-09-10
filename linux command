@@ -10,3 +10,7 @@ date
 man clear clear 명령어 설명
 passwd
 exit
+루트 디렉토리: /
+상위 디렉토리: .. => 상대 경로
+현재 디렉토리: .
+pwd: 현재 작업 디렉토리
