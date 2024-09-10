@@ -1,0 +1,12 @@
+cd
+ls -a
+ls -l
+ls -al
+ls /
+ls -al / 
+/ = 루트 디렉토리
+clear
+date
+man clear clear 명령어 설명
+passwd
+exit
