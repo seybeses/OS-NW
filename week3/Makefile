@@ -1,0 +1,25 @@
+TARGET_MAIN=main
+TARGET_ID=id
+TARGET_FACT10=fact10
+
+OBJECTS_MAIN=main.o
+OBJECTS_ID=id.o
+OBJECTS_FACT10=fact10.o
+
+$(TARGET_MAIN) : $(OBJECTS_MAIN)
+	gcc -o $(TARGET_MAIN) $(OBJECTS_MAIN)
+
+$(OBJECTS_MAIN) : main.c
+	gcc -c main.c
+
+$(TARGET_ID) : $(OBJECTS_ID)
+	gcc -o $(TARGET_ID) $(OBJECTS_ID)
+
+$(OBJECTS_ID) : id.c
+	gcc -c id.c
+
+$(TARGET_FACT10) : $(OBJECTS_FACT10)
+	gcc -o $(TARGET_FACT10) $(OBJECTS_FACT10)
+
+$(OBJECTS_FACT10) : fact10.c
+	gcc -c fact10.c
